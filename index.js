@@ -2,3 +2,7 @@
 function distanceFromHqInBlocks(location) {
   
 }
+
+function distanceFromHqInFeed(beginning, destination) {
+  return destination - beginning) * 264
+}
