@@ -1,8 +1,12 @@
 // Code your solution in this file!
 function distanceFromHqInBlocks(location) {
-  
+  return 42 - location;
 }
 
-function distanceFromHqInFeed(beginning, destination) {
-  return destination - beginning) * 264
+function distanceFromHqInFeet(location) {
+  distanceFromHqInBlocks(location) * 264;
+}
+
+function distanceTravelledInFeet(beginning, destination) {
+  return (destination - beginning) * 264;
 }
