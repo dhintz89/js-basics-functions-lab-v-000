@@ -8,5 +8,5 @@ function distanceFromHqInFeet(location) {
 }
 
 function distanceTravelledInFeet(beginning, destination) {
-  return (destination - beginning) * 264;
+  return Math.abs(destination - beginning) * 264;
 }
